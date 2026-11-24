@@ -1,6 +1,6 @@
 # AWS Security Lambda Toolkit
 
-Community PoC examples for AWS security monitoring and lightweight SOC workflows. Reconstructed examples, not exact exports of deployed functions. Python 3.12; boto3 provided by Lambda. Each handler is `<filename_without_py>.lambda_handler`. Package soc_findings_ingestion.py alongside soc_cloudtrail_poller.py. No credentials or account-specific identifiers included.
+PoC examples for AWS security monitoring and lightweight SOC workflows. Reconstructed examples, not exact exports of deployed functions. Python 3.12; boto3 provided by Lambda. Each handler is `<filename_without_py>.lambda_handler`. Package soc_findings_ingestion.py alongside soc_cloudtrail_poller.py. 
 
 | Module | Trigger | Environment | Minimum execution permissions (in addition to CloudWatch logging) |
 |---|---|---|---|
